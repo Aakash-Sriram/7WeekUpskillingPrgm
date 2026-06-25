@@ -25,3 +25,9 @@
 - [HANDSON2.md](Week2/HandsOn2/HANDSON2.md)
 - [HandsOn2.sql](Week2/HandsOn2/HandsOn2.sql)
 - [public/](Week2/HandsOn2/public/)
+
+### HandsOn 3 - [Week2/HandsOn3/](Week3/HandsOn3/)
+
+- [HANDSON3.md](Week2/HandsOn3/HANDSON3.md)
+- [HandsOn3.sql](Week2/HandsOn3/HandsOn3.sql)
+- [public/](Week2/HandsOn3/public/)
