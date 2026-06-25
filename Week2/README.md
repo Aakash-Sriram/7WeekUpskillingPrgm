@@ -8,5 +8,5 @@ Created database,required tables and inserted given values
 
 ## Hands On Exercises
 
-All Hands on exercises are named as HandsOn{n}.sql with individual READMEs as HANDSON{n}.md to display the expected outcomes and exercise specific details , where n is the exercise no.
+All Hands on exercises are named as HandsOn{n}.sql with individual READMEs as HANDSON{n}.md to display the expected outcomes and exercise specific details all in HandsOn{n}/ directories, where n is the exercise no.
 
