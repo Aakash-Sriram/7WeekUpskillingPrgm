@@ -5,6 +5,17 @@
 
 ## Task 1 outcome 
 
-i) ![alt text](image-1.png)
+1. ![alt text](image-1.png)
 
-ii) ![alt text](image-2.png)
+
+
+2. ![alt text](image-2.png)
+
+
+## Task 2 
+
+![alt text](image-4.png)
+
+## Task 2 outcome
+
+![alt text](image-5.png)

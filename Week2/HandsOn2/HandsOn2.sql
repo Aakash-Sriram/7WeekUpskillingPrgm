@@ -47,3 +47,12 @@ SELECT * FROM enrollments WHERE student_id = 5 AND course_id = 1;
 DELETE FROM enrollments WHERE grade IS NULL;
 SELECT COUNT(*) as Total from enrollments;
 SELECT * FROM enrollments;
+
+
+-- task 2
+
+SELECT * FROM students WHERE enrollment_year = 2022 ORDER BY last_name ASC;
+SELECT * FROM courses WHERE credits >3 ORDER BY credits DESC;
+SELECT * FROM professors WHERE salary BETWEEN 80000 AND 95000;
+SELECT * FROM students WHERE email LIKE '%@college.edu';
+SELECT COUNT(*) as students_count, enrollment_year FROM students GROUP BY enrollment_year;
