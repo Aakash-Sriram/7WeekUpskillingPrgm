@@ -64,3 +64,14 @@ SELECT e.enrollment_date, CONCAT(s.first_name,' ',s.last_name) as student_name ,
 SELECT s.* FROM students s LEFT JOIN enrollments e ON s.student_id = e.student_id WHERE e.student_id IS NULL;
 SELECT c.course_name, COUNT(*) as enrolled_students FROM enrollments e RIGHT JOIN courses c ON e.course_id = c.course_id GROUP BY c.course_name;
 SELECT d.dept_name as department,p.prof_name as professors,p.salary FROM professors p RIGHT JOIN departments d ON p.department_id = d.department_id ;
+
+
+
+--task 4
+
+SELECT c.course_name,COUNT(*) as total_enrollments FROM enrollments e RIGHT JOIN courses c ON e.course_id = c.course_id GROUP BY c.course_name;
+SELECT ROUND(AVG(p.salary),2) as avg_salary,d.dept_name FROM professors p JOIN departments d ON p.department_id = d.department_id GROUP BY d.dept_name;
+SELECT * FROM departments WHERE budget > 600000;
+SELECT e.grade,COUNT(*) as grade_count FROM courses c JOIN enrollments e ON c.course_id = e.course_id WHERE c.course_name = 'CS101' GROUP BY e.grade;
+SELECT e.grade, COUNT(*) as student_count FROM courses c JOIN enrollments e ON c.course_id = e.course_id WHERE c.course_code = 'CS101' GROUP BY e.grade;
+SELECT d.dept_name FROM departments d JOIN students s ON s.department_id = d.department_id GROUP BY d.dept_name HAVING COUNT(s.student_id) > 2;

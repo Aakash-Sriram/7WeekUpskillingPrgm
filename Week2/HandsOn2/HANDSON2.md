@@ -28,3 +28,11 @@
 
 1.  ![alt text](public/image-6.png)
 2.  ![alt text](public/image-7.png)
+
+## Task 4
+
+![alt text](public/image-9.png)
+
+## Task 4 outcome
+
+![alt text](public/image-10.png)
