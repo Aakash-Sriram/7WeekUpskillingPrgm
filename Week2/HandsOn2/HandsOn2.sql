@@ -56,3 +56,11 @@ SELECT * FROM courses WHERE credits >3 ORDER BY credits DESC;
 SELECT * FROM professors WHERE salary BETWEEN 80000 AND 95000;
 SELECT * FROM students WHERE email LIKE '%@college.edu';
 SELECT COUNT(*) as students_count, enrollment_year FROM students GROUP BY enrollment_year;
+
+
+-- task 3
+SELECT CONCAT(s.first_name, ' ', s.last_name) as student_name, d.dept_name FROM students s LEFT JOIN departments d ON s.department_id = d.department_id;
+SELECT e.enrollment_date, CONCAT(s.first_name,' ',s.last_name) as student_name ,c.course_name FROM enrollments e JOIN students s ON e.student_id = s.student_id JOIN courses c ON e.course_id = c.course_id;
+SELECT s.* FROM students s LEFT JOIN enrollments e ON s.student_id = e.student_id WHERE e.student_id IS NULL;
+SELECT c.course_name, COUNT(*) as enrolled_students FROM enrollments e RIGHT JOIN courses c ON e.course_id = c.course_id GROUP BY c.course_name;
+SELECT d.dept_name as department,p.prof_name as professors,p.salary FROM professors p RIGHT JOIN departments d ON p.department_id = d.department_id ;
