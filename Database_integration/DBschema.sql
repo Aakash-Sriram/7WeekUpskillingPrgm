@@ -1,3 +1,5 @@
+-- Active: 1781874082854@@127.0.0.1@3306@college_db
+--HandsOn1 task 1
 CREATE DATABASE college_db;
 USE college_db;
 
@@ -81,3 +83,5 @@ INSERT INTO professors (prof_name, email, department_id, salary) VALUES
   ('Dr. Sunil Rajan',     'sunil.r@college.edu',   2, 82000.00),
   ('Dr. Latha Gopal',     'latha.g@college.edu',   3, 79000.00),
   ('Dr. Kartik Bose',     'kartik.b@college.edu',  4, 76000.00);
+
+--Created all tables successfully with given constraints and inserted sample data into them.
