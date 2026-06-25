@@ -1,5 +1,5 @@
 --task 1
---Created all tables successfully with given constraints and inserted sample data into them.Code in DBschema.sql file.
+--Created all tables successfully with given constraints .Code in ../DBschema.sql file.
 
 --outcomes of the following commands are shown below:
 DESC students;

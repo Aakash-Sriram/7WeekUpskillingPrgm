@@ -1,5 +1,8 @@
 ![alt text](public/image-1.png)
 
+# Task 1
+![alt text](public/image-8.png)
+
 # Task 1 Outcome
 
 students table
@@ -22,7 +25,16 @@ departments table
 
 ![alt text](public/image-6.png)
 
+
+# Task 2
+![alt text](public/image-9.png)
+
 ## Task 2 Documentation is in the SQL file
+
+# Task 3 
+
+![alt text](public/image-10.png)
+
 
 ## Task 3 Outcome
 
